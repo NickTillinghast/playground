@@ -1,13 +1,19 @@
+import React from 'react';
+// import { Route } from 'react-router-dom';
 import './App.css';
+import Api from './components/api_component/api_component'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <button onClick={()}> </button>
-      </header>
-    </div>
-  );
+
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+
+        <Api />
+
+      </div>
+    );
+  }
 }
 
 export default App;
