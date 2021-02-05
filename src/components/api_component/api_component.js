@@ -18,7 +18,7 @@ const Api = () => {
 
         <div>hello world
 
-            {person && <div>{person.name.first}</div>}
+            {person && <div>{person.name.last}</div>}
         </div>
     )
 }
